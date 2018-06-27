@@ -13,7 +13,7 @@
 
 # LinkedIn Auto Connect Tool
 
-Sometimes you want more `LinkedIn` connections, especially `500+`. This tool is very helpful to boost up your connections.
+Sometimes you want more `LinkedIn` connections, especially `500+` or you want to connect with particular niche people like developers, investors, marketers etc. This tool is very helpful to boost up your connections.
 Just run it from your favorite terminal or command prompt and keep it running until you make enough connection requests.
 
 > An automation tool to automate the connection requests on LinkedIn.
@@ -26,29 +26,14 @@ Just run it from your favorite terminal or command prompt and keep it running un
 
 ## Installation
 
-Install this tool using `npm`:
-
-```bash
-$ npm install -g linkedin-auto-connect
-```
-
-It installs two binaries: `linkedin-auto-connect` and `lac` to your system path.
-
-## Usage
-
+1) Clone this repository
+2) Then run `npm start`
+3) After then it will ask you your linkedin email, password & keyword.
 Use it as follows using `lac` command:
 
-```bash
-$ lac -u <enter_your_linkedin_email> -k <keyword like Full Stack Developer>
-Enter LinkedIn password: *****
-```
-
-**In the keyword argument, if you type "ALL" then this tool will send invitations request to the people you may know or else you can send the connect with the particular niche people like full stack developer, UI/UX, investors etc.**
-
-If you want to keep your console clean, then just pass `--no-verbose` option.
+**In the keyword argument, if you type "ALL" then this tool will send invitations request to the people you may know or else you can connect with the particular niche people like full stack developer, UI/UX, investors etc.**
 
 **Note**: It does not share your `LinkedIn` credentials, so it is safe to use.
-
 
 
 ## Contributing
@@ -65,7 +50,7 @@ Please, try to follow:
 * Start the scraper.
 
 ```sh
-$ git clone https://github.com/rousan/linkedin-auto-connect.git
+$ git clone https://github.com/agarwalyeshu/linkedin-auto-connect.git
 $ cd linkedin-auto-connect
 $ git checkout develop
 $ npm i
