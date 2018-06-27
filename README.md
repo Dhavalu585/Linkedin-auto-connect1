@@ -18,6 +18,11 @@ Just run it from your favorite terminal or command prompt and keep it running un
 
 > An automation tool to automate the connection requests on LinkedIn.
 
+This is the forked version of
+https://github.com/rousan/linkedin-auto-connect
+
+Big thanks to rousan.
+
 ## Requirements
 
 `node` >= `v4.0.0`
@@ -29,33 +34,9 @@ Just run it from your favorite terminal or command prompt and keep it running un
 1) Clone this repository
 2) Then run `npm start`
 3) After then it will ask you your linkedin email, password & keyword.
-Use it as follows using `lac` command:
 
 **In the keyword argument, if you type "ALL" then this tool will send invitations request to the people you may know or else you can connect with the particular niche people like full stack developer, UI/UX, investors etc.**
 
 **Note**: It does not share your `LinkedIn` credentials, so it is safe to use.
-
-
-## Contributing
-
-Your PRs and stars are always welcome.
-
-Please, try to follow:
-
-* Clone the repository.
-* Checkout `develop` branch.
-* Install dependencies.
-* Add your new features or fixes.
-* Build the project.
-* Start the scraper.
-
-```sh
-$ git clone https://github.com/agarwalyeshu/linkedin-auto-connect.git
-$ cd linkedin-auto-connect
-$ git checkout develop
-$ npm i
-$ npm run build
-$ npm start
-```
 
 ### Happy Hacking!
